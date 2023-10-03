@@ -70,3 +70,74 @@ Before we get started, keep in mind:
 [info] 
 [info] ✔  Success! Logged into GitHub as Daphne271991 
 [info] 
+[debug] [2023-10-03T16:53:50.926Z] >>> [apiv2][query] GET https://api.github.com/repos/Daphne271991/expense-tracker-final/actions/secrets/public-key type=owner
+[debug] [2023-10-03T16:53:51.526Z] <<< [apiv2][status] GET https://api.github.com/repos/Daphne271991/expense-tracker-final/actions/secrets/public-key 401
+[debug] [2023-10-03T16:53:51.526Z] <<< [apiv2][body] GET https://api.github.com/repos/Daphne271991/expense-tracker-final/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-10-03T16:54:04.077Z] >>> [apiv2][query] GET https://api.github.com/repos/Daphne271991/expense-tracker-final/actions/secrets/public-key type=owner
+[debug] [2023-10-03T16:54:04.452Z] <<< [apiv2][status] GET https://api.github.com/repos/Daphne271991/expense-tracker-final/actions/secrets/public-key 401
+[debug] [2023-10-03T16:54:04.452Z] <<< [apiv2][body] GET https://api.github.com/repos/Daphne271991/expense-tracker-final/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-10-03T16:54:04.971Z] >>> [apiv2][query] GET https://api.github.com/repos/Daphne271991/expense-tracker-final/actions/secrets/public-key type=owner
+[debug] [2023-10-03T16:54:05.154Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-10-03T16:54:05.310Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-10-03T16:54:05.341Z] <<< [apiv2][status] GET https://api.github.com/repos/Daphne271991/expense-tracker-final/actions/secrets/public-key 401
+[debug] [2023-10-03T16:54:05.341Z] <<< [apiv2][body] GET https://api.github.com/repos/Daphne271991/expense-tracker-final/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-10-03T16:54:05.462Z] >>> [apiv2][query] GET https://api.github.com/repos/Daphne271991/expense-tracker-final/actions/secrets/public-key type=owner
+[debug] [2023-10-03T16:54:05.595Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-10-03T16:54:05.686Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-10-03T16:54:05.686Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-10-03T16:54:05.752Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-10-03T16:54:05.833Z] <<< [apiv2][status] GET https://api.github.com/repos/Daphne271991/expense-tracker-final/actions/secrets/public-key 401
+[debug] [2023-10-03T16:54:05.834Z] <<< [apiv2][body] GET https://api.github.com/repos/Daphne271991/expense-tracker-final/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-10-03T16:54:05.906Z] >>> [apiv2][query] GET https://api.github.com/repos/Daphne271991/expense-tracker-final/actions/secrets/public-key type=owner
+[debug] [2023-10-03T16:54:06.049Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-10-03T16:54:06.145Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-10-03T16:54:06.145Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-10-03T16:54:06.203Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-10-03T16:54:06.284Z] <<< [apiv2][status] GET https://api.github.com/repos/Daphne271991/expense-tracker-final/actions/secrets/public-key 401
+[debug] [2023-10-03T16:54:06.284Z] <<< [apiv2][body] GET https://api.github.com/repos/Daphne271991/expense-tracker-final/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-10-03T16:54:06.373Z] >>> [apiv2][query] GET https://api.github.com/repos/Daphne271991/expense-tracker-final/actions/secrets/public-key type=owner
+[debug] [2023-10-03T16:54:06.416Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-10-03T16:54:06.417Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-10-03T16:54:06.520Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-10-03T16:54:06.521Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-10-03T16:54:06.532Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-10-03T16:54:06.566Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-10-03T16:54:06.566Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-10-03T16:54:06.681Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-10-03T16:54:06.681Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-10-03T16:54:06.716Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-10-03T16:54:06.755Z] <<< [apiv2][status] GET https://api.github.com/repos/Daphne271991/expense-tracker-final/actions/secrets/public-key 401
+[debug] [2023-10-03T16:54:06.755Z] <<< [apiv2][body] GET https://api.github.com/repos/Daphne271991/expense-tracker-final/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-10-03T16:54:06.910Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-10-03T16:54:06.910Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-10-03T16:54:07.087Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-10-03T16:54:07.087Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-10-03T16:54:07.223Z] >>> [apiv2][query] GET https://api.github.com/repos/Daphne271991/expense-tracker-final/actions/secrets/public-key type=owner
+[debug] [2023-10-03T16:54:07.308Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-10-03T16:54:07.389Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-10-03T16:54:07.475Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-10-03T16:54:07.555Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-10-03T16:54:07.594Z] <<< [apiv2][status] GET https://api.github.com/repos/Daphne271991/expense-tracker-final/actions/secrets/public-key 401
+[debug] [2023-10-03T16:54:07.594Z] <<< [apiv2][body] GET https://api.github.com/repos/Daphne271991/expense-tracker-final/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-10-03T16:54:07.637Z] >>> [apiv2][query] GET https://api.github.com/repos/Daphne271991/expense-tracker-final/actions/secrets/public-key type=owner
+[debug] [2023-10-03T16:54:07.761Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-10-03T16:54:07.762Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-10-03T16:54:07.929Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-10-03T16:54:07.930Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-10-03T16:54:08.036Z] <<< [apiv2][status] GET https://api.github.com/repos/Daphne271991/expense-tracker-final/actions/secrets/public-key 401
+[debug] [2023-10-03T16:54:08.036Z] <<< [apiv2][body] GET https://api.github.com/repos/Daphne271991/expense-tracker-final/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-10-03T16:54:08.689Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-10-03T16:54:08.690Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-10-03T16:54:08.847Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-10-03T16:54:08.847Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-10-03T16:54:36.141Z] >>> [apiv2][query] GET https://api.github.com/repos/Daphne271991/expense-tracker-final/actions/secrets/public-key type=owner
+[debug] [2023-10-03T16:54:36.577Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-10-03T16:54:36.747Z] <<< [apiv2][status] GET https://api.github.com/repos/Daphne271991/expense-tracker-final/actions/secrets/public-key 401
+[debug] [2023-10-03T16:54:36.748Z] <<< [apiv2][body] GET https://api.github.com/repos/Daphne271991/expense-tracker-final/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-10-03T16:54:36.815Z] >>> [apiv2][query] GET https://api.github.com/repos/Daphne271991/expense-tracker-final/actions/secrets/public-key type=owner
+[debug] [2023-10-03T16:54:36.960Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-10-03T16:54:36.960Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-10-03T16:54:37.206Z] <<< [apiv2][status] GET https://api.github.com/repos/Daphne271991/expense-tracker-final/actions/secrets/public-key 401
+[debug] [2023-10-03T16:54:37.206Z] <<< [apiv2][body] GET https://api.github.com/repos/Daphne271991/expense-tracker-final/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-10-03T17:04:11.124Z] Error: read EIO
+    at TTY.onStreamRead (node:internal/stream_base_commons:217:20)
