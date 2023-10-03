@@ -17,8 +17,8 @@ export const useGetTransactions = () => {
     expenses: 0.0,
   });
 
-  const transactionCollectionRef = collection(db, "transactions");
   const { userID } = useGetUserInfo();
+  const transactionCollectionRef = collection(db, "transactions");
 
   useEffect(() => {
     const getTransactions = async () => {
@@ -67,7 +67,7 @@ export const useGetTransactions = () => {
     };
 
     getTransactions();
-  }, [userID]);
+  }, [userID, transactionCollectionRef]); // Include transactionCollectionRef in the dependency array
 
   return { transactions, transactionTotals };
 };
