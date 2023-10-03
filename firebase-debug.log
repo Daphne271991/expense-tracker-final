@@ -1,0 +1,213 @@
+[debug] [2023-10-03T03:30:35.910Z] ----------------------------------------------------------------------
+[debug] [2023-10-03T03:30:35.911Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2023-10-03T03:30:35.912Z] CLI Version:   12.6.1
+[debug] [2023-10-03T03:30:35.912Z] Platform:      darwin
+[debug] [2023-10-03T03:30:35.912Z] Node Version:  v18.17.1
+[debug] [2023-10-03T03:30:35.914Z] Time:          Mon Oct 02 2023 21:30:35 GMT-0600 (Central Standard Time)
+[debug] [2023-10-03T03:30:35.915Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-03T03:30:35.992Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-03T03:30:35.992Z] > authorizing via signed-in user (daphne.ari.b@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/dboni0907/Documents/GitHub/expense-tracker
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-10-03T03:30:50.609Z] Using project from CLI flag: expense-tracker-ff66e
+[debug] [2023-10-03T03:30:50.613Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/expense-tracker-ff66e [none]
+[debug] [2023-10-03T03:30:51.536Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/expense-tracker-ff66e 200
+[debug] [2023-10-03T03:30:51.536Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/expense-tracker-ff66e {"projectId":"expense-tracker-ff66e","projectNumber":"836489143051","displayName":"expense-tracker","name":"projects/expense-tracker-ff66e","resources":{"hostingSite":"expense-tracker-ff66e"},"state":"ACTIVE","etag":"1_efab7a69-7e9d-4758-a291-e0bcaa9ea6f2"}
+[info] i  Using project expense-tracker-ff66e (expense-tracker) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2023-10-03T03:32:07.536Z] Error: read EIO
+    at TTY.onStreamRead (node:internal/stream_base_commons:217:20)
+[debug] [2023-10-03T03:32:15.277Z] ----------------------------------------------------------------------
+[debug] [2023-10-03T03:32:15.279Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2023-10-03T03:32:15.279Z] CLI Version:   12.6.1
+[debug] [2023-10-03T03:32:15.280Z] Platform:      darwin
+[debug] [2023-10-03T03:32:15.280Z] Node Version:  v18.17.1
+[debug] [2023-10-03T03:32:15.282Z] Time:          Mon Oct 02 2023 21:32:15 GMT-0600 (Central Standard Time)
+[debug] [2023-10-03T03:32:15.282Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-03T03:32:15.359Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-03T03:32:15.360Z] > authorizing via signed-in user (daphne.ari.b@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/dboni0907/Documents/GitHub/expense-tracker
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-10-03T03:32:21.150Z] Using project from CLI flag: expense-tracker-ff66e
+[debug] [2023-10-03T03:32:21.152Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/expense-tracker-ff66e [none]
+[debug] [2023-10-03T03:32:21.853Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/expense-tracker-ff66e 200
+[debug] [2023-10-03T03:32:21.854Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/expense-tracker-ff66e {"projectId":"expense-tracker-ff66e","projectNumber":"836489143051","displayName":"expense-tracker","name":"projects/expense-tracker-ff66e","resources":{"hostingSite":"expense-tracker-ff66e"},"state":"ACTIVE","etag":"1_efab7a69-7e9d-4758-a291-e0bcaa9ea6f2"}
+[info] i  Using project expense-tracker-ff66e (expense-tracker) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2023-10-03T03:33:14.138Z] ----------------------------------------------------------------------
+[debug] [2023-10-03T03:33:14.140Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2023-10-03T03:33:14.140Z] CLI Version:   12.6.1
+[debug] [2023-10-03T03:33:14.141Z] Platform:      darwin
+[debug] [2023-10-03T03:33:14.141Z] Node Version:  v18.17.1
+[debug] [2023-10-03T03:33:14.143Z] Time:          Mon Oct 02 2023 21:33:14 GMT-0600 (Central Standard Time)
+[debug] [2023-10-03T03:33:14.143Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-03T03:33:14.214Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-03T03:33:14.215Z] > authorizing via signed-in user (daphne.ari.b@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/dboni0907/Documents/GitHub/expense-tracker
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-10-03T03:33:24.870Z] Using project from CLI flag: expense-tracker-ff66e
+[debug] [2023-10-03T03:33:24.874Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/expense-tracker-ff66e [none]
+[debug] [2023-10-03T03:33:25.420Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/expense-tracker-ff66e 200
+[debug] [2023-10-03T03:33:25.420Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/expense-tracker-ff66e {"projectId":"expense-tracker-ff66e","projectNumber":"836489143051","displayName":"expense-tracker","name":"projects/expense-tracker-ff66e","resources":{"hostingSite":"expense-tracker-ff66e"},"state":"ACTIVE","etag":"1_efab7a69-7e9d-4758-a291-e0bcaa9ea6f2"}
+[info] i  Using project expense-tracker-ff66e (expense-tracker) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2023-10-03T03:33:37.875Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-10-03T03:33:38.738Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-10-03T03:33:38.739Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.4.0","browserURL":"https://www.gstatic.com/firebasejs/10.4.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.4.0/firebase.tgz"},"live":{"version":"10.4","browserURL":"https://www.gstatic.com/firebasejs/live/10.4/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.4/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.4.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.4.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.4.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.4.0/firebase-auth/cordova.js","functions":"https://www.gstatic.com/firebasejs/10.4.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.4.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.4.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.4.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.4.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.4.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.4.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.4.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.4.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.4.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.4.0/firebase-firestore.memory.js"}}
+[info] ✔  Wrote public/index.html 
+[info] 
+[info] i  Detected a .git folder at /Users/dboni0907/Documents/GitHub/expense-tracker 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=346308935&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-10-03T03:35:57.280Z] ----------------------------------------------------------------------
+[debug] [2023-10-03T03:35:57.282Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2023-10-03T03:35:57.282Z] CLI Version:   12.6.1
+[debug] [2023-10-03T03:35:57.282Z] Platform:      darwin
+[debug] [2023-10-03T03:35:57.283Z] Node Version:  v18.17.1
+[debug] [2023-10-03T03:35:57.285Z] Time:          Mon Oct 02 2023 21:35:57 GMT-0600 (Central Standard Time)
+[debug] [2023-10-03T03:35:57.285Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-03T03:35:57.375Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-03T03:35:57.376Z] > authorizing via signed-in user (daphne.ari.b@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/dboni0907/Documents/GitHub/expense-tracker
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-10-03T03:36:04.714Z] Using project from CLI flag: expense-tracker-ff66e
+[debug] [2023-10-03T03:36:04.718Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/expense-tracker-ff66e [none]
+[debug] [2023-10-03T03:36:05.350Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/expense-tracker-ff66e 200
+[debug] [2023-10-03T03:36:05.350Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/expense-tracker-ff66e {"projectId":"expense-tracker-ff66e","projectNumber":"836489143051","displayName":"expense-tracker","name":"projects/expense-tracker-ff66e","resources":{"hostingSite":"expense-tracker-ff66e"},"state":"ACTIVE","etag":"1_efab7a69-7e9d-4758-a291-e0bcaa9ea6f2"}
+[info] i  Using project expense-tracker-ff66e (expense-tracker) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] ✔  Wrote public/404.html 
+[debug] [2023-10-03T03:36:22.258Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-10-03T03:36:22.806Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-10-03T03:36:22.806Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.4.0","browserURL":"https://www.gstatic.com/firebasejs/10.4.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.4.0/firebase.tgz"},"live":{"version":"10.4","browserURL":"https://www.gstatic.com/firebasejs/live/10.4/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.4/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.4.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.4.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.4.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.4.0/firebase-auth/cordova.js","functions":"https://www.gstatic.com/firebasejs/10.4.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.4.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.4.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.4.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.4.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.4.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.4.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.4.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.4.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.4.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.4.0/firebase-firestore.memory.js"}}
+[info] i  Skipping write of public/index.html 
+[info] 
+[info] i  Detected a .git folder at /Users/dboni0907/Documents/GitHub/expense-tracker 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=273056648&redirect_uri=http%3A%2F%2Flocalhost%3A9006&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-10-03T03:37:12.945Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-10-03T03:37:12.945Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-10-03T03:37:13.561Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-10-03T03:37:13.561Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-10-03T03:37:13.575Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-10-03T03:37:14.233Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-10-03T03:37:14.233Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"Daphne271991","id":134757720,"node_id":"U_kgDOCAg9WA","avatar_url":"https://avatars.githubusercontent.com/u/134757720?v=4","gravatar_id":"","url":"https://api.github.com/users/Daphne271991","html_url":"https://github.com/Daphne271991","followers_url":"https://api.github.com/users/Daphne271991/followers","following_url":"https://api.github.com/users/Daphne271991/following{/other_user}","gists_url":"https://api.github.com/users/Daphne271991/gists{/gist_id}","starred_url":"https://api.github.com/users/Daphne271991/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Daphne271991/subscriptions","organizations_url":"https://api.github.com/users/Daphne271991/orgs","repos_url":"https://api.github.com/users/Daphne271991/repos","events_url":"https://api.github.com/users/Daphne271991/events{/privacy}","received_events_url":"https://api.github.com/users/Daphne271991/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":16,"public_gists":0,"followers":0,"following":0,"created_at":"2023-05-27T03:49:52Z","updated_at":"2023-10-02T03:20:47Z","private_gists":0,"total_private_repos":12,"owned_private_repos":12,"disk_usage":129723,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] ✔  Success! Logged into GitHub as Daphne271991 
+[info] 
